@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADCA7F0E1B17685C007F395B /* HSGReviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCA7F0D1B17685C007F395B /* HSGReviewViewController.m */; };
+		ADCA7F121B178297007F395B /* HSGReviewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCA7F101B178297007F395B /* HSGReviewTableViewCell.m */; };
+		ADCA7F131B178297007F395B /* HSGReviewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADCA7F111B178297007F395B /* HSGReviewTableViewCell.xib */; };
+		ADCA7F161B18DF84007F395B /* HSGFilterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCA7F151B18DF84007F395B /* HSGFilterModel.m */; };
+		ADCA7F1A1B194F3B007F395B /* HSGCityAndCategoryParser.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCA7F191B194F3B007F395B /* HSGCityAndCategoryParser.m */; };
+		ADCA7F1D1B195F73007F395B /* HSGReviewParser.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCA7F1C1B195F73007F395B /* HSGReviewParser.m */; };
+		ADCA7F2B1B1A4E80007F395B /* HSGReviewDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCA7F2A1B1A4E80007F395B /* HSGReviewDetailViewController.m */; };
+		ADCA7F2E1B1B6159007F395B /* HSGStore.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCA7F2C1B1B6159007F395B /* HSGStore.m */; };
+		ADCA7F311B1B617F007F395B /* HSGReviewBusiness.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCA7F301B1B617F007F395B /* HSGReviewBusiness.m */; };
+		ADCA7F371B1B6197007F395B /* HSGUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCA7F341B1B6197007F395B /* HSGUtility.m */; };
+		ADCA7F381B1B6197007F395B /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCA7F361B1B6197007F395B /* Reachability.m */; };
+		ADDE4CF61B1414CD00C4919B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDE4CF51B1414CD00C4919B /* main.m */; };
+		ADDE4CF91B1414CD00C4919B /* HSGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDE4CF81B1414CD00C4919B /* HSGAppDelegate.m */; };
+		ADDE4CFF1B1414CD00C4919B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADDE4CFD1B1414CD00C4919B /* Main.storyboard */; };
+		ADDE4D011B1414CD00C4919B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADDE4D001B1414CD00C4919B /* Images.xcassets */; };
+		ADDE4D041B1414CD00C4919B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADDE4D021B1414CD00C4919B /* LaunchScreen.xib */; };
+		ADDE4D101B1414CE00C4919B /* TourGuideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDE4D0F1B1414CE00C4919B /* TourGuideTests.m */; };
+		ADDE4D1F1B160C7900C4919B /* HSGWebConnectionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDE4D1E1B160C7900C4919B /* HSGWebConnectionHandler.m */; };
+		ADDE4D381B16617E00C4919B /* HSGPlace.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDE4D351B16617E00C4919B /* HSGPlace.m */; };
+		ADDE4D391B16617E00C4919B /* HSGReviewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDE4D371B16617E00C4919B /* HSGReviewModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADDE4D0A1B1414CE00C4919B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADDE4CE81B1414CD00C4919B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADDE4CEF1B1414CD00C4919B;
+			remoteInfo = TourGuide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADCA7F0C1B17685C007F395B /* HSGReviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSGReviewViewController.h; sourceTree = "<group>"; };
+		ADCA7F0D1B17685C007F395B /* HSGReviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSGReviewViewController.m; sourceTree = "<group>"; };
+		ADCA7F0F1B178297007F395B /* HSGReviewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSGReviewTableViewCell.h; sourceTree = "<group>"; };
+		ADCA7F101B178297007F395B /* HSGReviewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSGReviewTableViewCell.m; sourceTree = "<group>"; };
+		ADCA7F111B178297007F395B /* HSGReviewTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HSGReviewTableViewCell.xib; sourceTree = "<group>"; };
+		ADCA7F141B18DF84007F395B /* HSGFilterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSGFilterModel.h; sourceTree = "<group>"; };
+		ADCA7F151B18DF84007F395B /* HSGFilterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSGFilterModel.m; sourceTree = "<group>"; };
+		ADCA7F181B194F3B007F395B /* HSGCityAndCategoryParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSGCityAndCategoryParser.h; sourceTree = "<group>"; };
+		ADCA7F191B194F3B007F395B /* HSGCityAndCategoryParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSGCityAndCategoryParser.m; sourceTree = "<group>"; };
+		ADCA7F1B1B195F73007F395B /* HSGReviewParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSGReviewParser.h; sourceTree = "<group>"; };
+		ADCA7F1C1B195F73007F395B /* HSGReviewParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSGReviewParser.m; sourceTree = "<group>"; };
+		ADCA7F291B1A4E80007F395B /* HSGReviewDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSGReviewDetailViewController.h; sourceTree = "<group>"; };
+		ADCA7F2A1B1A4E80007F395B /* HSGReviewDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSGReviewDetailViewController.m; sourceTree = "<group>"; };
+		ADCA7F2C1B1B6159007F395B /* HSGStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSGStore.m; sourceTree = "<group>"; };
+		ADCA7F2D1B1B6159007F395B /* HSGStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSGStore.h; sourceTree = "<group>"; };
+		ADCA7F2F1B1B6172007F395B /* HSGReviewBusiness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSGReviewBusiness.h; sourceTree = "<group>"; };
+		ADCA7F301B1B617F007F395B /* HSGReviewBusiness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSGReviewBusiness.m; sourceTree = "<group>"; };
+		ADCA7F331B1B6197007F395B /* HSGUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSGUtility.h; sourceTree = "<group>"; };
+		ADCA7F341B1B6197007F395B /* HSGUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSGUtility.m; sourceTree = "<group>"; };
+		ADCA7F351B1B6197007F395B /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		ADCA7F361B1B6197007F395B /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		ADDE4CF01B1414CD00C4919B /* TourGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TourGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADDE4CF41B1414CD00C4919B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADDE4CF51B1414CD00C4919B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADDE4CF71B1414CD00C4919B /* HSGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSGAppDelegate.h; sourceTree = "<group>"; };
+		ADDE4CF81B1414CD00C4919B /* HSGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSGAppDelegate.m; sourceTree = "<group>"; };
+		ADDE4CFE1B1414CD00C4919B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADDE4D001B1414CD00C4919B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ADDE4D031B1414CD00C4919B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ADDE4D091B1414CE00C4919B /* TourGuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TourGuideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADDE4D0E1B1414CE00C4919B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADDE4D0F1B1414CE00C4919B /* TourGuideTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TourGuideTests.m; sourceTree = "<group>"; };
+		ADDE4D1D1B160C7900C4919B /* HSGWebConnectionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSGWebConnectionHandler.h; sourceTree = "<group>"; };
+		ADDE4D1E1B160C7900C4919B /* HSGWebConnectionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSGWebConnectionHandler.m; sourceTree = "<group>"; };
+		ADDE4D341B16617E00C4919B /* HSGPlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSGPlace.h; sourceTree = "<group>"; };
+		ADDE4D351B16617E00C4919B /* HSGPlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSGPlace.m; sourceTree = "<group>"; };
+		ADDE4D361B16617E00C4919B /* HSGReviewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSGReviewModel.h; sourceTree = "<group>"; };
+		ADDE4D371B16617E00C4919B /* HSGReviewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSGReviewModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADDE4CED1B1414CD00C4919B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADDE4D061B1414CE00C4919B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADCA7F171B194F0A007F395B /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				ADCA7F181B194F3B007F395B /* HSGCityAndCategoryParser.h */,
+				ADCA7F191B194F3B007F395B /* HSGCityAndCategoryParser.m */,
+				ADCA7F1B1B195F73007F395B /* HSGReviewParser.h */,
+				ADCA7F1C1B195F73007F395B /* HSGReviewParser.m */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		ADCA7F321B1B6197007F395B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				ADCA7F331B1B6197007F395B /* HSGUtility.h */,
+				ADCA7F341B1B6197007F395B /* HSGUtility.m */,
+				ADCA7F351B1B6197007F395B /* Reachability.h */,
+				ADCA7F361B1B6197007F395B /* Reachability.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		ADDE4CE71B1414CD00C4919B = {
+			isa = PBXGroup;
+			children = (
+				ADDE4CF21B1414CD00C4919B /* TourGuide */,
+				ADDE4D0C1B1414CE00C4919B /* TourGuideTests */,
+				ADDE4CF11B1414CD00C4919B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADDE4CF11B1414CD00C4919B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADDE4CF01B1414CD00C4919B /* TourGuide.app */,
+				ADDE4D091B1414CE00C4919B /* TourGuideTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADDE4CF21B1414CD00C4919B /* TourGuide */ = {
+			isa = PBXGroup;
+			children = (
+				ADDE4CF71B1414CD00C4919B /* HSGAppDelegate.h */,
+				ADDE4CF81B1414CD00C4919B /* HSGAppDelegate.m */,
+				ADDE4CFD1B1414CD00C4919B /* Main.storyboard */,
+				ADDE4D1B1B14C6F300C4919B /* View */,
+				ADDE4D191B1417F200C4919B /* Model */,
+				ADDE4D1A1B1417F200C4919B /* ViewController */,
+				ADCA7F321B1B6197007F395B /* Utilities */,
+				ADDE4D001B1414CD00C4919B /* Images.xcassets */,
+				ADDE4D021B1414CD00C4919B /* LaunchScreen.xib */,
+				ADDE4CF31B1414CD00C4919B /* Supporting Files */,
+			);
+			path = TourGuide;
+			sourceTree = "<group>";
+		};
+		ADDE4CF31B1414CD00C4919B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADDE4CF41B1414CD00C4919B /* Info.plist */,
+				ADDE4CF51B1414CD00C4919B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADDE4D0C1B1414CE00C4919B /* TourGuideTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADDE4D0F1B1414CE00C4919B /* TourGuideTests.m */,
+				ADDE4D0D1B1414CE00C4919B /* Supporting Files */,
+			);
+			path = TourGuideTests;
+			sourceTree = "<group>";
+		};
+		ADDE4D0D1B1414CE00C4919B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADDE4D0E1B1414CE00C4919B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADDE4D191B1417F200C4919B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ADCA7F2D1B1B6159007F395B /* HSGStore.h */,
+				ADCA7F2C1B1B6159007F395B /* HSGStore.m */,
+				ADCA7F171B194F0A007F395B /* Parser */,
+				ADDE4D331B16617E00C4919B /* Data Model */,
+				ADDE4D1C1B160C4F00C4919B /* Service */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ADDE4D1A1B1417F200C4919B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				ADCA7F0C1B17685C007F395B /* HSGReviewViewController.h */,
+				ADCA7F0D1B17685C007F395B /* HSGReviewViewController.m */,
+				ADCA7F291B1A4E80007F395B /* HSGReviewDetailViewController.h */,
+				ADCA7F2A1B1A4E80007F395B /* HSGReviewDetailViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		ADDE4D1B1B14C6F300C4919B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ADCA7F0F1B178297007F395B /* HSGReviewTableViewCell.h */,
+				ADCA7F101B178297007F395B /* HSGReviewTableViewCell.m */,
+				ADCA7F111B178297007F395B /* HSGReviewTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ADDE4D1C1B160C4F00C4919B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				ADCA7F2F1B1B6172007F395B /* HSGReviewBusiness.h */,
+				ADCA7F301B1B617F007F395B /* HSGReviewBusiness.m */,
+				ADDE4D1D1B160C7900C4919B /* HSGWebConnectionHandler.h */,
+				ADDE4D1E1B160C7900C4919B /* HSGWebConnectionHandler.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		ADDE4D331B16617E00C4919B /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				ADDE4D341B16617E00C4919B /* HSGPlace.h */,
+				ADDE4D351B16617E00C4919B /* HSGPlace.m */,
+				ADDE4D361B16617E00C4919B /* HSGReviewModel.h */,
+				ADDE4D371B16617E00C4919B /* HSGReviewModel.m */,
+				ADCA7F141B18DF84007F395B /* HSGFilterModel.h */,
+				ADCA7F151B18DF84007F395B /* HSGFilterModel.m */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADDE4CEF1B1414CD00C4919B /* TourGuide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADDE4D131B1414CE00C4919B /* Build configuration list for PBXNativeTarget "TourGuide" */;
+			buildPhases = (
+				ADDE4CEC1B1414CD00C4919B /* Sources */,
+				ADDE4CED1B1414CD00C4919B /* Frameworks */,
+				ADDE4CEE1B1414CD00C4919B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TourGuide;
+			productName = TourGuide;
+			productReference = ADDE4CF01B1414CD00C4919B /* TourGuide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADDE4D081B1414CE00C4919B /* TourGuideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADDE4D161B1414CE00C4919B /* Build configuration list for PBXNativeTarget "TourGuideTests" */;
+			buildPhases = (
+				ADDE4D051B1414CE00C4919B /* Sources */,
+				ADDE4D061B1414CE00C4919B /* Frameworks */,
+				ADDE4D071B1414CE00C4919B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADDE4D0B1B1414CE00C4919B /* PBXTargetDependency */,
+			);
+			name = TourGuideTests;
+			productName = TourGuideTests;
+			productReference = ADDE4D091B1414CE00C4919B /* TourGuideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADDE4CE81B1414CD00C4919B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Sudeep Unnikrishnan";
+				TargetAttributes = {
+					ADDE4CEF1B1414CD00C4919B = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					ADDE4D081B1414CE00C4919B = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = ADDE4CEF1B1414CD00C4919B;
+					};
+				};
+			};
+			buildConfigurationList = ADDE4CEB1B1414CD00C4919B /* Build configuration list for PBXProject "TourGuide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADDE4CE71B1414CD00C4919B;
+			productRefGroup = ADDE4CF11B1414CD00C4919B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADDE4CEF1B1414CD00C4919B /* TourGuide */,
+				ADDE4D081B1414CE00C4919B /* TourGuideTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADDE4CEE1B1414CD00C4919B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADDE4CFF1B1414CD00C4919B /* Main.storyboard in Resources */,
+				ADDE4D041B1414CD00C4919B /* LaunchScreen.xib in Resources */,
+				ADCA7F131B178297007F395B /* HSGReviewTableViewCell.xib in Resources */,
+				ADDE4D011B1414CD00C4919B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADDE4D071B1414CE00C4919B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADDE4CEC1B1414CD00C4919B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADDE4D391B16617E00C4919B /* HSGReviewModel.m in Sources */,
+				ADCA7F1A1B194F3B007F395B /* HSGCityAndCategoryParser.m in Sources */,
+				ADCA7F2E1B1B6159007F395B /* HSGStore.m in Sources */,
+				ADDE4CF91B1414CD00C4919B /* HSGAppDelegate.m in Sources */,
+				ADDE4CF61B1414CD00C4919B /* main.m in Sources */,
+				ADCA7F1D1B195F73007F395B /* HSGReviewParser.m in Sources */,
+				ADCA7F0E1B17685C007F395B /* HSGReviewViewController.m in Sources */,
+				ADCA7F121B178297007F395B /* HSGReviewTableViewCell.m in Sources */,
+				ADCA7F2B1B1A4E80007F395B /* HSGReviewDetailViewController.m in Sources */,
+				ADDE4D1F1B160C7900C4919B /* HSGWebConnectionHandler.m in Sources */,
+				ADCA7F161B18DF84007F395B /* HSGFilterModel.m in Sources */,
+				ADDE4D381B16617E00C4919B /* HSGPlace.m in Sources */,
+				ADCA7F371B1B6197007F395B /* HSGUtility.m in Sources */,
+				ADCA7F311B1B617F007F395B /* HSGReviewBusiness.m in Sources */,
+				ADCA7F381B1B6197007F395B /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADDE4D051B1414CE00C4919B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADDE4D101B1414CE00C4919B /* TourGuideTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADDE4D0B1B1414CE00C4919B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADDE4CEF1B1414CD00C4919B /* TourGuide */;
+			targetProxy = ADDE4D0A1B1414CE00C4919B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADDE4CFD1B1414CD00C4919B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADDE4CFE1B1414CD00C4919B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADDE4D021B1414CD00C4919B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADDE4D031B1414CD00C4919B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADDE4D111B1414CE00C4919B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ADDE4D121B1414CE00C4919B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADDE4D141B1414CE00C4919B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TourGuide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ADDE4D151B1414CE00C4919B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TourGuide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ADDE4D171B1414CE00C4919B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TourGuideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TourGuide.app/TourGuide";
+			};
+			name = Debug;
+		};
+		ADDE4D181B1414CE00C4919B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TourGuideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TourGuide.app/TourGuide";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADDE4CEB1B1414CD00C4919B /* Build configuration list for PBXProject "TourGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADDE4D111B1414CE00C4919B /* Debug */,
+				ADDE4D121B1414CE00C4919B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADDE4D131B1414CE00C4919B /* Build configuration list for PBXNativeTarget "TourGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADDE4D141B1414CE00C4919B /* Debug */,
+				ADDE4D151B1414CE00C4919B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADDE4D161B1414CE00C4919B /* Build configuration list for PBXNativeTarget "TourGuideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADDE4D171B1414CE00C4919B /* Debug */,
+				ADDE4D181B1414CE00C4919B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADDE4CE81B1414CD00C4919B /* Project object */;
+}
